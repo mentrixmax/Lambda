@@ -1,0 +1,56 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Layout.master.cs" Inherits="Lambda.Layout" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Lambda</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <link href="css/StyleSheet.css" rel="stylesheet" type="text/css" />
+    </head>
+<body style="background-color: black;">
+        <div id="menu">
+        <ul id="nav">
+            <li>
+                <a href="Default.aspx">Inicio</a>
+
+            </li>
+
+            <li>
+                <a href="Participantes.aspx">Mebros</a>
+            </li>
+
+            <li>
+                <a href="Projetos.aspx">Projetos</a>
+            </li>
+
+            <li>
+                <a href="EmConstrucao.aspx">Publicações</a>
+            </li>
+
+            <li>
+                <a href="EmConstrucao.aspx">Contato</a>
+            </li>
+
+            <li>
+                <a href="EmConstrucao.aspx">Noticias</a>
+            </li>
+            <li>
+                <a href="EmConstrucao.aspx">Parceiros</a>
+            </li>
+
+            
+        </ul>
+        &nbsp;
+    </div>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        
+    </form>
+</body>
+</html>

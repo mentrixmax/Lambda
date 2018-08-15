@@ -43,11 +43,55 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Menfram, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>libs\Menfram.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.Agent.Intercept, Version=1.2.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Agent.Intercept.1.2.1\lib\net45\Microsoft.AI.Agent.Intercept.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.DependencyCollector, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.DependencyCollector.2.0.0\lib\net45\Microsoft.AI.DependencyCollector.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.PerfCounterCollector, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.PerfCounterCollector.2.0.0\lib\net45\Microsoft.AI.PerfCounterCollector.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.ServerTelemetryChannel, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.2.0.0\lib\net45\Microsoft.AI.ServerTelemetryChannel.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.Web, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Web.2.0.0\lib\net45\Microsoft.AI.Web.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.WindowsServer, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.2.0.0\lib\net45\Microsoft.AI.WindowsServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ApplicationInsights, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.2.0.0\lib\net45\Microsoft.ApplicationInsights.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Mono.Security, Version=2.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>libs\Mono.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.7.4.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>libs\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Npgsql, Version=2.0.9.0, Culture=neutral, PublicKeyToken=5d8b90d52f46fda7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>libs\Npgsql.dll</HintPath>
+    </Reference>
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -66,7 +110,27 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\images\800x600\imageDagua.jpg" />
+    <Content Include="css\images\800x600\imagelambda.jpg" />
+    <Content Include="Fotos\1.bmp" />
+    <Content Include="Fotos\igorpain.gif" />
+    <Content Include="Fotos\mateus.png" />
+    <Content Include="Fotos\saae.png" />
+    <Content Include="libs\Menfram.dll" />
+    <Content Include="libs\Mono.Security.dll" />
+    <Content Include="libs\MySql.Data.dll" />
+    <Content Include="libs\Npgsql.dll" />
     <Content Include="packages.config" />
+    <Content Include="ApplicationInsights.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="css\images\800x600\CVS\Entries" />
+    <Content Include="css\images\800x600\CVS\Entries.Extra" />
+    <Content Include="css\images\800x600\CVS\Entries.Extra.Old" />
+    <Content Include="css\images\800x600\CVS\Entries.Old" />
+    <Content Include="css\images\800x600\CVS\Repository" />
+    <Content Include="css\images\800x600\CVS\Root" />
+    <Content Include="Layout.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -75,18 +139,235 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\botoes.css" />
+    <Content Include="css\campos.css" />
+    <Content Include="css\forms.css" />
+    <Content Include="css\global.css" />
+    <Content Include="css\images\800x600\aba_01.jpg" />
+    <Content Include="css\images\800x600\aba_02.jpg" />
+    <Content Include="css\images\800x600\aberto.png" />
+    <Content Include="css\images\800x600\barra1_bg.jpg" />
+    <Content Include="css\images\800x600\barra_colapsar_01.gif" />
+    <Content Include="css\images\800x600\barra_colapsar_02.gif" />
+    <Content Include="css\images\800x600\bg_basa.jpg" />
+    <Content Include="css\images\800x600\botao_colapsar.gif" />
+    <Content Include="css\images\800x600\botao_expandir.gif" />
+    <Content Include="css\images\800x600\botao_paginacao_anterior.gif" />
+    <Content Include="css\images\800x600\botao_paginacao_final.gif" />
+    <Content Include="css\images\800x600\botao_paginacao_inicio.gif" />
+    <Content Include="css\images\800x600\botao_paginacao_proxima.gif" />
+    <Content Include="css\images\800x600\botoesbuscar_bg.jpg" />
+    <Content Include="css\images\800x600\botoes_bg.jpg" />
+    <Content Include="css\images\800x600\cabecalho.jpg" />
+    <Content Include="css\images\800x600\cabecalho_bg.jpg" />
+    <Content Include="css\images\800x600\chamada.jpg" />
+    <Content Include="css\images\800x600\conteudo_bg.jpg" />
+    <Content Include="css\images\800x600\conteudo_bg_novarussas.jpg" />
+    <Content Include="css\images\800x600\filtro_bg.jpg" />
+    <Content Include="css\images\800x600\formulario_bg.jpg" />
+    <Content Include="css\images\800x600\frio.jpg" />
+    <Content Include="css\images\800x600\fundo_abas.gif" />
+    <Content Include="css\images\800x600\icone_adicionar_linha.jpg" />
+    <Content Include="css\images\800x600\icone_agrupamento.gif" />
+    <Content Include="css\images\800x600\icone_agrupamento.jpg" />
+    <Content Include="css\images\800x600\icone_alterar.gif" />
+    <Content Include="css\images\800x600\icone_confirmar_linha.gif" />
+    <Content Include="css\images\800x600\icone_contracao_verde.gif" />
+    <Content Include="css\images\800x600\icone_editar_linha.jpg" />
+    <Content Include="css\images\800x600\icone_erro.jpg" />
+    <Content Include="css\images\800x600\icone_expansao.jpg" />
+    <Content Include="css\images\800x600\icone_expansao_verde.gif" />
+    <Content Include="css\images\800x600\icone_fonte_recurso.jpg" />
+    <Content Include="css\images\800x600\icone_item_erro.jpg" />
+    <Content Include="css\images\800x600\icone_lista_item.jpg" />
+    <Content Include="css\images\800x600\icone_mais.gif" />
+    <Content Include="css\images\800x600\icone_menos.gif" />
+    <Content Include="css\images\800x600\icone_modulo01.gif" />
+    <Content Include="css\images\800x600\icone_msg_alerta.gif" />
+    <Content Include="css\images\800x600\icone_msg_negativa.gif" />
+    <Content Include="css\images\800x600\icone_msg_positiva.gif" />
+    <Content Include="css\images\800x600\icone_obrigatorio.jpg" />
+    <Content Include="css\images\800x600\icone_remover_linha.jpg" />
+    <Content Include="css\images\800x600\ico_alerta.gif" />
+    <Content Include="css\images\800x600\ico_alterar.gif" />
+    <Content Include="css\images\800x600\ico_avancar.gif" />
+    <Content Include="css\images\800x600\ico_buscar.gif" />
+    <Content Include="css\images\800x600\ico_cancelar.gif" />
+    <Content Include="css\images\800x600\ico_consultar.gif" />
+    <Content Include="css\images\800x600\ico_excluir.gif" />
+    <Content Include="css\images\800x600\ico_fechar.gif" />
+    <Content Include="css\images\800x600\ico_first.gif" />
+    <Content Include="css\images\800x600\ico_incluir.gif" />
+    <Content Include="css\images\800x600\ico_last.gif" />
+    <Content Include="css\images\800x600\ico_limpar.gif" />
+    <Content Include="css\images\800x600\ico_next.gif" />
+    <Content Include="css\images\800x600\ico_ok.gif" />
+    <Content Include="css\images\800x600\ico_pesquisar.gif" />
+    <Content Include="css\images\800x600\ico_prior.gif" />
+    <Content Include="css\images\800x600\ico_sair.gif" />
+    <Content Include="css\images\800x600\ico_salvar.gif" />
+    <Content Include="css\images\800x600\ico_selecionar.gif" />
+    <Content Include="css\images\800x600\ico_setamenu.gif" />
+    <Content Include="css\images\800x600\ico_sucesso.gif" />
+    <Content Include="css\images\800x600\ico_voltar.gif" />
+    <Content Include="css\images\800x600\Lambda.jpg" />
+    <Content Include="css\images\800x600\logo.jpg" />
+    <Content Include="css\images\800x600\menu_bg.gif" />
+    <Content Include="css\images\800x600\modulo.gif" />
+    <Content Include="css\images\800x600\msg_negativa_marcadagua.gif" />
+    <Content Include="css\images\800x600\msg_positiva_marcadagua.gif" />
+    <Content Include="css\images\800x600\padrao.jpg" />
+    <Content Include="css\images\800x600\rodape.gif" />
+    <Content Include="css\images\800x600\rodape_bg.jpg" />
+    <Content Include="css\images\800x600\titulo_bg.jpg" />
+    <Content Include="css\images\aba_01.jpg" />
+    <Content Include="css\images\aba_02.jpg" />
+    <Content Include="css\images\barra1_bg.jpg" />
+    <Content Include="css\images\bg_basa.jpg" />
+    <Content Include="css\images\cabecalho_bg.jpg" />
+    <Content Include="css\images\chamada.jpg" />
+    <Content Include="css\images\conteudo_bg.jpg" />
+    <Content Include="css\images\Cópia de conteudo_bg.jpg" />
+    <Content Include="css\images\Cópia de formulario_bg.jpg" />
+    <Content Include="css\images\formulario_bg.jpg" />
+    <Content Include="css\images\frio.jpg" />
+    <Content Include="css\images\fundo_abas.gif" />
+    <Content Include="css\images\icone_adicionar_linha.jpg" />
+    <Content Include="css\images\icone_agrupamento.gif" />
+    <Content Include="css\images\icone_agrupamento.jpg" />
+    <Content Include="css\images\icone_alterar.gif" />
+    <Content Include="css\images\icone_confirmar_linha.gif" />
+    <Content Include="css\images\icone_contracao_verde.gif" />
+    <Content Include="css\images\icone_editar_linha.jpg" />
+    <Content Include="css\images\icone_erro.jpg" />
+    <Content Include="css\images\icone_expansao.jpg" />
+    <Content Include="css\images\icone_expansao_verde.gif" />
+    <Content Include="css\images\icone_fonte_recurso.jpg" />
+    <Content Include="css\images\icone_item_erro.jpg" />
+    <Content Include="css\images\icone_lista_item.jpg" />
+    <Content Include="css\images\icone_mais.gif" />
+    <Content Include="css\images\icone_menos.gif" />
+    <Content Include="css\images\icone_modulo01.gif" />
+    <Content Include="css\images\icone_msg_alerta.gif" />
+    <Content Include="css\images\icone_msg_negativa.gif" />
+    <Content Include="css\images\icone_msg_positiva.gif" />
+    <Content Include="css\images\icone_obrigatorio.jpg" />
+    <Content Include="css\images\icone_remover_linha.jpg" />
+    <Content Include="css\images\ico_alterar.gif" />
+    <Content Include="css\images\ico_avancar.gif" />
+    <Content Include="css\images\ico_buscar.gif" />
+    <Content Include="css\images\ico_cancelar.gif" />
+    <Content Include="css\images\ico_consultar.gif" />
+    <Content Include="css\images\ico_excluir.gif" />
+    <Content Include="css\images\ico_fechar.gif" />
+    <Content Include="css\images\ico_first.gif" />
+    <Content Include="css\images\ico_incluir.gif" />
+    <Content Include="css\images\ico_last.gif" />
+    <Content Include="css\images\ico_limpar.gif" />
+    <Content Include="css\images\ico_next.gif" />
+    <Content Include="css\images\ico_ok.gif" />
+    <Content Include="css\images\ico_pesquisar.gif" />
+    <Content Include="css\images\ico_prior.gif" />
+    <Content Include="css\images\ico_sair.gif" />
+    <Content Include="css\images\ico_salvar.gif" />
+    <Content Include="css\images\ico_selecionar.gif" />
+    <Content Include="css\images\ico_sucesso.gif" />
+    <Content Include="css\images\ico_voltar.gif" />
+    <Content Include="css\images\logo.jpg" />
+    <Content Include="css\images\menu_bg.gif" />
+    <Content Include="css\images\modulo.gif" />
+    <Content Include="css\images\padrao.jpg" />
+    <Content Include="css\images\RespostaProvaC1.png" />
+    <Content Include="css\images\rodape.gif" />
+    <Content Include="css\images\rodape_bg.jpg" />
+    <Content Include="css\images\titulo_bg.jpg" />
+    <Content Include="css\lov.css" />
+    <Content Include="css\mensagem.css" />
+    <Content Include="css\menu.css" />
+    <Content Include="css\StyleSheet.css" />
+    <Content Include="css\tab.css" />
+    <Content Include="css\tabela.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="EmConstrucao.aspx" />
     <Content Include="Global.asax" />
-    <Content Include="Web.config" />
+    <Content Include="Index.aspx" />
+    <Content Include="Participantes.aspx" />
+    <Content Include="Projetos.aspx" />
+    <Content Include="Projetos\Avatec.png" />
+    <Content Include="Projetos\cap.png" />
+    <Content Include="Projetos\euir.png" />
+    <Content Include="Projetos\pill_icon128.png" />
+    <Content Include="Projetos\saae.png" />
+    <Content Include="scripts\ai.0.22.9-build00167.js" />
+    <Content Include="scripts\ai.0.22.9-build00167.min.js" />
+    <Content Include="Sobre.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EmConstrucao.aspx.cs">
+      <DependentUpon>EmConstrucao.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EmConstrucao.aspx.designer.cs">
+      <DependentUpon>EmConstrucao.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Layout.Master.cs">
+      <DependentUpon>Layout.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layout.Master.designer.cs">
+      <DependentUpon>Layout.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Participante.cs" />
+    <Compile Include="ParticipanteDAO.cs" />
+    <Compile Include="Participantes.aspx.cs">
+      <DependentUpon>Participantes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Participantes.aspx.designer.cs">
+      <DependentUpon>Participantes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Projetos.aspx.cs">
+      <DependentUpon>Projetos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Projetos.aspx.designer.cs">
+      <DependentUpon>Projetos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Projetos.cs" />
+    <Compile Include="ProjetosDAO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sobre.aspx.cs">
+      <DependentUpon>Sobre.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sobre.aspx.designer.cs">
+      <DependentUpon>Sobre.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
+    <Folder Include="web-resources\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

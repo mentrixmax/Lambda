@@ -1,0 +1,58 @@
+/* CSS Document */
+
+/*------------ 	mensagens  --------------*/
+
+#mensagem {
+	background-color: #FFFFFF;
+	border: 1px solid #ccc;
+	overflow: auto; 
+	height:27px;
+	padding-top:12px;
+	padding-left: 40px;
+	font-size: 11px;
+}
+
+.msg_positiva {
+	background: url(images/icone_msg_positiva.gif) no-repeat;
+	background-position:20px 10px;
+	color:#009933;
+}
+.msg_alerta {
+	background: url(images/icone_msg_alerta.gif) no-repeat;
+	background-position:20px 10px;
+	color:#FF6600;
+}
+
+.msg_negativa{
+	background: url(images/icone_msg_negativa.gif) no-repeat;
+	background-position:20px 10px;	
+	color: #CC0000;
+}
+
+
+#mensagem ul 
+{	
+	background-repeat:no-repeat;	
+	list-style-type:decimal;
+	margin-top:-2px;
+	padding-left:20px;
+	_padding-left:0px;
+
+
+}
+
+#mensagem li 
+{	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #4A4A42;
+	padding-bottom:8px;
+
+}
+
+#mensagem li b
+{	
+    color: #CC0000;
+
+}
+

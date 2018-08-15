@@ -1,0 +1,416 @@
+
+/* ESTRUTURA BASICA */
+
+body {
+	margin:0;
+	padding:0;
+	font:11px Arial, Helvetica, sans-serif;
+	color:#5B615E;
+}
+
+#cabecalho {
+	width: 1018px;
+	height: 63px;
+	background:url(images/cabecalho.jpg) no-repeat;
+}
+
+#modulo {
+	width: 1018px;
+	height: 26px;
+	padding-top: 8px;
+	background:url(images/modulo.gif) no-repeat;
+	text-align: right;
+	color:#FFFFFF;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+#modulo span {
+	font-weight: normal;
+	margin-right: 10px;
+}
+
+#menu {
+	width: 1018px;
+	height: 23px;
+	background-color:#000000;
+}
+
+#data{
+	position: absolute;
+	top: 158px;
+	left: 820px;
+}
+
+h1 {
+	width: 958px;
+	margin: 20px 20px 0;
+	padding: 10px;
+	background-color: #E9E9E6;
+	border: 1px solid #CCCCCC;
+	font-size: 18px;
+	color: #009933;
+}
+
+h1 span {
+	color: #666666;
+	margin-left: 5px;
+}
+
+#conteudo{
+	width: 948px;
+	margin: 0 20px 0;
+	padding: 15px;
+	height: 400px;
+	background:url(images/formulario_bg.jpg) right no-repeat;
+	border: 1px solid #CCCCCC;
+	border-top: none;
+}
+
+#botoes {
+	width: 958px;
+	margin: 0 20px 20px;
+	padding: 10px;
+	text-align: right;
+	background-color: #ECECE9;
+	border: 1px solid #CCCCCC;
+	border-top: none;
+}
+
+#botoes strong {
+	display:block;
+	color:#009933;
+	float: left;
+	font-weight: normal;
+}
+
+/* FIELDSET */
+
+fieldset {
+	padding: 10px 0 0 10px;
+	_padding-bottom: 10px;
+	border: 1px solid #ccc;
+
+}
+
+legend {
+	font-weight: bold;
+	margin: 0 5px;
+	_margin: 0 0 10px 0;
+	padding: 0 5px;
+	_padding: 0 3px;
+	color: #333333;
+}
+
+/* CAMPOS */
+
+form {
+	margin: 0;
+	padding: 0;
+}
+
+.campo{
+	float: left;
+	margin: 0 10px 10px 0;
+	font-weight:bold;
+	color:#777768;
+}
+
+
+
+.campo em {
+	display:block;
+	float: left;
+	margin: 5px 5px 0 5px;
+	text-indent: 0;
+	font-weight: normal;
+	font-style:normal;
+}
+
+
+select, input, textarea {
+/*	display:block;*/
+/*	float:left;*/
+
+	vertical-align:middle;
+/*	clear: left;*/
+	color: #666666;
+	margin: 3px 0 0;
+	padding-left: 2px;
+	border: 1px solid #ccc;
+	font-weight: normal;
+	font-size: 11px;
+}
+
+.radiocheck{
+	display:inline;
+	border-width:0;
+	border-style:none;
+	margin: 5px 5px 0 5px;
+	text-indent: 0;
+	font-weight: normal;
+	font-style:normal;
+
+}
+
+label{
+	display:block;
+	clear:right;
+
+}
+
+
+
+
+.obrigatorio {
+	background:url(images/icone_obrigatorio.jpg) no-repeat;
+	text-indent: 10px;
+}
+
+.leitura {
+	background-color:#F3F3F0;
+}
+
+.desabilitado {
+	background-color:#EFEEEC; 
+	color: #F8F8F8;
+}
+
+#resultado{
+	_margin-left:0;
+	display:none;
+}
+
+#resultado h3 {
+	color: #333333;
+	font-size: 11px;
+	margin: 0 0 3px 0;
+}
+
+#rodape {
+	width: 1018px;
+	height: 28px;
+	text-align: right;
+	background:url(images/rodape.gif) no-repeat;
+}
+
+/* BOTOES */
+
+button, #botoes button {
+	background-color:#EFEEEC;
+	color:#7C7C70;
+	font-size: 0.8em;
+	font-weight:bold;
+	margin-left:5px;
+	border: 1px solid;
+	border-bottom-color: #CDCDCD;
+	border-right-color: #CDCDCD;
+	border-top-color: #FFFFFF;
+	border-left-color: #FFFFFF;
+	padding: 2px;
+}
+
+#buscar {
+	text-align:right;
+	margin: 10px 2px 0 0;
+	_margin-right: 0;
+}
+
+#buscar button {
+	margin-left: 5px;
+}
+
+/* Botoes do CRUD simples */
+
+#botoesCrudSimples {
+	padding: 16px 0 0 0;
+}
+
+#botoesCrudSimples button {
+	height: 20px;
+	padding: 2px 5px;
+}
+
+.btMais {
+	background: url(images/icone_mais.gif) no-repeat;
+	_background-position:-2px -2px;
+}
+
+.btMenos {
+	background: url(images/icone_menos.gif) no-repeat;
+	_background-position:-2px -2px;
+}
+
+.btAlterar {
+	background: url(images/icone_alterar.gif) no-repeat;
+	_background-position:-2px -2px;
+}
+
+/* ABAS */
+
+.abas {
+	padding: 0 15px 0;
+	margin: 0 -15px 10px;
+	background: url(images/fundo_abas.gif) 0px 35px repeat-x;
+	list-style-type: none;
+	height: 36px;
+	_height: 31px;
+}
+.abas li {
+	display:block;
+	float:left;
+	margin: 0 5px 0 0;
+	padding:0;
+}
+.abas li a {
+	display:block;
+	width: 150px;
+	text-align:center;
+	margin: 0 0 1px;
+	padding:10px;
+	border: 1px solid #CCCCCC;
+	background-color: #E6E9E4;
+	color: #999999;
+	font-weight: bold;
+	text-decoration:none;
+}
+
+.abas li a:hover {
+	background-color: #F4F4F2;
+	color: #666666;
+}
+
+.abas .ativa {
+	background-color: #F4F4F2;
+	color: #666666;
+	border-bottom-color: #F4F4F2;
+	cursor: text;
+}
+
+.visivel {
+	display: block;	
+}
+
+.invisivel {
+	display: none;
+}
+
+/* MENSAGENS */
+
+#mensagem {
+	background-color: #FFFFEA;
+	_background-attachment: fixed;
+	border: 1px solid #ccc;
+	overflow: auto;
+	padding: 12px 12px 12px 35px;
+	margin-bottom: 10px;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.msg_positiva {
+	background: url(images/icone_msg_positiva.gif) 10px 10px no-repeat;
+	color:#009933;
+}
+
+.msg_alerta {
+	background: url(images/icone_msg_alerta.gif) 10px 10px no-repeat;
+	color:#FF6600;
+}
+
+.msg_negativa {
+	height: 40px;
+	background: url(images/icone_msg_negativa.gif) 10px 10px no-repeat;
+	color: #CC0000;
+}
+
+#mensagem ul {
+	list-style-type:decimal;
+	margin: 10px 0 0 0;
+	_margin-left: 20px;
+	padding: 0 0 10px 20px;
+	_padding-left: 0;
+	font-weight: normal;
+	font-size: 11px;
+}
+
+#mensagem li  {	
+	color: #4A4A42;
+	line-height:1.5em;
+}
+
+/* MISCELANEA */
+
+hr {
+	border: 1px Solid #CCCCCC;
+	height: 1px;
+	clear:both;
+	float: left;
+}
+
+.datagrid select, .datagrid input, .datagrid textarea {
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+
+fieldset .datagrid {
+	margin: 0 10px 10px 0;
+}
+
+/* LOV */
+
+#lov h1 {
+	width: 760px;
+	margin: 0;
+	border: none;
+	border-bottom: 1px solid #CCC;
+	border-top: 3px solid #006633;
+}
+
+#lov #conteudo {
+	width: 750px;
+	margin: 0;
+	height: 335px;
+	border-left: none;
+	border-right: none;
+	background-position: right bottom;
+}
+
+#lov #botoes {
+	width: 760px;
+	margin: 0;
+	border-left: none;
+	border-right: none;
+	border-bottom: 3px solid #006633;
+}
+
+.MultiSelectDiv {
+	border: 1px solid #CCC;
+	overflow: auto;
+	border-top: 1px solid #CCC;
+	border-right: 1px solid #CCC;
+	border-bottom: 1px solid #CCC;
+	background: #FFF;
+}
+
+.MultiSelectDiv:after {
+	content: "";
+	display: block;
+	clear: both;
+	height: 0;
+}
+
+.MultiSelectDiv span{
+	display:block;
+	padding: 4px;
+	margin: 4px;
+}
+
+.MultiSelectDiv input{
+	margin-right:5px; 
+	margin-top:2px;
+	_margin-top:-3px;
+	border:0;
+}
+

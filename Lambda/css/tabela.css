@@ -1,0 +1,120 @@
+/* Grid baseado no trabalho de Terence Ordona, portal[AT]imaputz[DOT]com                        */
+/* http://creativecommons.org/licenses/by-sa/2.0/                                               */
+/* Original (com BUGs de alinhamento) em http://www.imaputz.com/cssStuff/bigFourVersion.html    */
+
+/* DIV que define altura e largura da area de rolagem e adiciona 18px para a barra de rolagem.  */
+.datagrid {
+	border: 1px solid #ccc;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+.datagrid table {
+	background-color: #FFFFFF;
+/*	background:#FFF url(images/800x600/datagrid_linha_bg.gif) right top repeat-y;*/
+}
+
+/* Define position do THEAD como relative para o IE 6.x */
+thead tr {
+	position: relative;	
+}
+
+/* Permite a rolagem do TBODY em browsers nao-IE e nao-Mozilla */
+html>body thead tr,
+html>body tbody tr {
+	/*display: block;*/
+}
+
+/* Formatacao do TH */
+thead th {
+	background: #D8D8D8;
+	border-left: 1px solid #F4F4F4;
+	border-right: 1px solid #BBB;
+	border-top: 1px solid #F4F4F4;
+	padding: 4px 3px;
+	text-align: left;
+}
+
+/* Formatacao do A dentro do cabecalho da tabela, permitindo o sorting da tabela  */
+thead a, thead a:link, thead a:visited {
+	color: #666666;
+	/*display: block;*/
+	text-decoration: none;
+	width: 100%;
+}
+
+/* Hover do A no cabecalho */
+thead a:hover {
+	text-decoration: underline;
+}
+
+/* Define a rolagem do conteudo, diminuindo 30 pixels para o controle de rolagem*/
+html>body tbody {
+	/*display: block;*/
+	overflow: auto;
+	width: auto;
+}
+
+/* Formatacao do TD de listagem */
+tbody td{
+	background: #FFF;
+	border-bottom: 1px solid #CCC;
+	border-left: none;
+	border-right: 1px solid #CCC;
+	padding: 2px 3px 3px 4px;
+}
+html>body .datagrid table input {
+	display:block;
+	margin-left: 3px;
+}
+
+/* PAGINADOR */
+
+#paginador {
+	height: 25px;
+	padding-right:2px;
+	_padding-right:0;
+	background-color: #F9F9F9;
+	border: 1px solid #CCCCCC;
+	border-top:none;
+	text-align:right;
+	color: #666666;
+	font-size:12px;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+
+#paginador span {
+	display:block;
+	float:left;
+	margin: 5px;
+	color: #666666;
+	letter-spacing: normal;
+}
+
+#paginador a {
+	margin: 0 1px 0 5px;
+	text-decoration: none;
+	color: #007A17;
+	letter-spacing: normal;
+}
+
+#paginador a:hover {
+	text-decoration: none;
+	color: #FF6600;
+}
+
+#paginador img {
+	border: none;
+	margin: 5px 4px 5px -3px;
+	vertical-align: middle;
+}
+
+.first {
+	background-image:url(images/800x600/ico_first.gif)
+}
+
+.prior {
+	background-image:url(images/800x600/ico_prior.gif)
+}
+

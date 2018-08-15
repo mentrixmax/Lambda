@@ -1,0 +1,78 @@
+/* LOV */
+
+/* ARQUIVOS IMPORTADOS*/
+
+@import url("menu.css");
+@import url("forms.css");
+@import url("tabela.css");
+@import url("botoes.css");
+
+/* ESTRUTURA BASICA */
+
+/* Larguras */
+
+#conteudo,
+#botoes, 
+h1,
+#cabecalho,
+#menu,
+#rodape {
+	width: 780px;
+}
+html>body #conteudo,
+html>body #botoes, 
+html>body h1 {
+	width: 760px;
+}
+
+html>body #botoes {
+	width: 770px;
+}
+
+/* Definicoes de IDs estruturais*/
+
+body {
+	margin:0;
+	padding:0;
+	font:11px Arial, Helvetica, sans-serif;
+	color: #666666;
+}
+
+h1 {
+	margin:0;
+	padding: 5px 10px 5px;
+	border-bottom: 2px solid #FBBF00;
+	font-size: 15px;
+	color: #FFFFFF;
+	background:url(../web-resources/images/800x600/titulo_bg.jpg) repeat-x;
+}
+
+h1 span {
+	color: #FBBF00;
+	margin-left: 5px;
+}
+
+#conteudo{
+	height: 380px;
+	background:url(../web-resources/images/800x600/conteudo_bg.jpg) right no-repeat;
+	border-top: none;
+	padding: 10px;
+}
+#botoes {
+	text-align: right;
+	padding: 5px;
+	border-top: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+	background: url(../images/800x600/botoes_bg.jpg) repeat-x;
+}
+#botoes strong {
+	display:block;
+	color:#009933;
+	float: left;
+	font-weight: normal;
+}
+
+#rodape {
+	height: 5px;
+	background-color:#007A17;
+}

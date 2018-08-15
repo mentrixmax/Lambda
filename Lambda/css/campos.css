@@ -1,0 +1,80 @@
+/*Áreas de Crédito*/
+
+#AreaCredito{
+	width:220px;
+}
+
+/* Manter Suporte Forrageiro Padrão */
+
+#TipoPastagem {
+	width:130px;
+}
+
+#SistemaCultivo {
+	width:130px;
+}
+
+#PlantaForrageira {
+	width:130px;
+}
+
+#Ano {
+	width:80px;
+	float:left;
+}
+
+#IndicePadraoSuporteForrageiro {
+	width:160px;
+	float:left;
+}
+
+#IndiceMinimoSuporteForrageiro {
+	width:160px;
+	float:left;
+}
+
+#IndiceMaximoSuporteForrageiro {
+	width:160px;
+	float:left;
+}
+
+/* Manter Intens de Custo */
+
+#DescricaoItenCusto{
+	width: 241px;
+}
+
+#TipoItenCusto{	
+	width: 114px;
+}
+
+#CustoIncidente{
+	width: 114px;
+	text-align:right;
+}	
+
+#ModoCusto{	
+	width: 116px;
+}
+
+#PercentPadrao{	
+	width: 45px;
+}
+
+/* Manter Destinações */
+
+#Empreendimento{
+	width: 220px;
+}
+
+#FinalidadeEmpreendimento{
+	width: 220px;
+}
+
+#TipoEmpreendimento{
+	width: 220px;
+}
+
+#CodigoBACEN{
+	width: 220px;
+}

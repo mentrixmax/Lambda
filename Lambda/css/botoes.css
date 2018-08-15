@@ -1,0 +1,205 @@
+
+/* BOTOES */
+
+button, #botoes button {
+	background-color: transparent;
+	background-position: 3px 3px;
+	background-repeat: no-repeat;
+	color:#7C7C70;
+	font-size: 0.8em;
+	font-weight:bold;
+	margin-left:5px;
+	text-align: left;
+	border: 1px solid #CCCCCC;
+	padding: 2px;
+	text-indent: 16px;
+    height:20px;
+}
+
+
+
+
+/* Botoes do Filtro */
+
+#buttonbuscar 
+{
+  
+}
+#ContentPlaceHolder1_BtBuscar
+{
+	
+	background-image: url(images/ico_buscar.gif);
+}
+
+#BtBuscar
+{
+
+	background-image: url(images/ico_buscar.gif);
+}
+
+
+
+#ContentPlaceHolder1_BtLimpar
+{
+	background-image: url(images/ico_limpar.gif);
+}
+
+#ContentPlaceHolder1_BtLimpar 
+{
+	background-image: url(images/ico_limpar.gif);
+}
+
+/* Botoes do Painel Principal */
+
+#ContentPlaceHolder1_BtIncluir 
+{
+	
+	background-image: url(images/ico_incluir.gif);
+}
+
+#BtIncluir 
+{
+	background-image: url(images/ico_incluir.gif);
+}
+
+#ContentPlaceHolder1_BtAlterar 
+{
+	background-image: url(images/ico_alterar.gif);
+}
+#BtAlterar 
+{
+	background-image: url(images/ico_alterar.gif);
+}
+
+#ContentPlaceHolder1_BtExcluir 
+{
+	background-image: url(images/ico_excluir.gif);
+}
+
+#BtExcluir 
+{
+	background-image: url(images/ico_excluir.gif);
+}
+
+#BtMoeda 
+{
+	
+	background-image: url(images/ico_ok.gif);
+}
+
+#BtMoeda1 
+{
+	background-image: url(images/ico_ok.gif);
+}
+#BtMoeda2 
+{
+	
+	background-image: url(images/ico_ok.gif);
+}
+
+#ContentPlaceHolder1_BtConsultar 
+{
+	background-image: url(images/ico_consultar.gif);
+}
+
+.bottoes
+{
+	background-repeat: no-repeat;
+	background-color: transparent;
+	background-position: 3px 3px;
+	color:#7C7C70;
+	font-size: 0.8em;
+	font-weight:bold;
+	border: 1px solid #CCCCCC;
+	padding: 2px;
+	text-align : center;
+	width : 100px;
+    height:20px;
+}
+#BtConsultar 
+{
+	background-image: url(images/ico_consultar.gif);
+}
+
+
+#ContentPlaceHolder1_BtFechar 
+{
+	
+	background-image: url(images/ico_fechar.gif);
+}
+#BtFechar 
+{
+	background-image: url(images/ico_fechar.gif);
+}
+
+
+#ContentPlaceHolder1_BtSalvar 
+{
+	background-image: url(images/ico_salvar.gif);
+}
+
+#BtSalvar 
+{
+	background-image: url(images/ico_salvar.gif);
+}
+
+#ContentPlaceHolder1_BtCancelar 
+{
+	background-image: url(images/ico_cancelar.gif);
+}
+
+#BtCancelar 
+{
+	background-image: url(images/ico_cancelar.gif);
+}
+
+#ContentPlaceHolder1_BtVoltar 
+{
+	background-image: url(images/ico_voltar.gif);
+}
+
+#BtVoltar 
+{
+	background-image: url(images/ico_voltar.gif);
+}
+
+#ContentPlaceHolder1_BtConfirmar 
+{
+	background-image: url(images/ico_ok.gif);
+}
+#BtConfirmar 
+{	background-image: url(images/ico_ok.gif);
+}
+
+#BtGerar 
+{
+	background-image: url(images/ico_consultar.gif);
+}
+
+
+/* Botoes do CRUD simples */
+
+#botoesCrudSimples {
+	padding: 16px 0 0 0;
+	margin-right: 10px;
+}
+
+#botoesCrudSimples button {
+	height: 20px;
+	width:18px;
+	padding: 2px 5px;
+	_background-position: -2px -2px;
+}
+
+.btMais {
+	background: url(images/icone_mais.gif) no-repeat;
+}
+
+.btMenos {
+	background: url(images/icone_menos.gif) no-repeat;
+}
+
+.btMudar {
+	background: url(images/icone_alterar.gif) no-repeat;
+	_background-position: -4px -2px;
+}

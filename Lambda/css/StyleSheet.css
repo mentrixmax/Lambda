@@ -1,0 +1,219 @@
+﻿/* ARQUIVOS IMPORTADOS*/
+
+@import url("menu.css");
+@import url("forms.css");
+@import url("tabela.css");
+@import url("botoes.css");
+@import url("campos.css");
+@import url("mensagem.css");
+@import url("tab.css");
+
+/* ESTRUTURA BASICA */
+
+/* Larguras */
+
+.imagemcentral {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:556px;
+    height: 483px;
+}
+
+.texto {
+    font-size:40px;
+    color:rgba(90, 191, 208, 1);
+}
+.footer {
+    position:absolute;
+    bottom:0;
+    margin-left: auto;
+    margin-right: auto; 
+    width:100%;
+    color:rgba(90, 191, 208, 1);
+    font-weight:bold;
+    
+}
+
+.container .fakeImg {
+    display: block;
+    max-width:700px;
+    max-height:500px;
+    width: auto;
+    height: auto;
+    background: no-repeat center;
+    background-size: cover;    
+}
+
+.container
+{
+    margin-left: auto;
+    margin-right: auto;
+    display:inline-block;
+    margin: 4px;
+    height: 100%;
+    min-height: 100%;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    
+}
+
+
+#cabecalho,
+#menu,
+#rodape {
+	width: 100%;
+
+}
+#botoes {
+	width: 770px;
+}
+.valores
+{
+	text-align:right;
+	
+}
+
+#conteudo,
+h1 {
+	/*width: 90%;*/
+}
+
+/* Definicoes de IDs estruturais*/
+
+
+.login
+{ margin-left: 10px;
+  margin-top: 10px;
+}
+#login
+{ margin-left: 200px;
+  margin-top: 10px;
+}
+
+body {
+	margin:0;
+	padding:0;
+	font:11px Arial, Helvetica, sans-serif;
+	color: #666666;
+}
+
+#cabecalho {
+	height: 42px;
+	background:url(images/800x600/cabecalho.jpg) no-repeat;
+}
+
+#modulo {
+	position: absolute;
+	top: 15px;
+	right: 10px;
+	text-align: right;
+	color:#FFFFFF;
+	font-weight: bold;
+	font-size: 13px;
+}
+
+
+
+#modulo span {
+/*	font-weight: normal;*/
+	color:#FFFFFF;
+	margin-left: 5px;
+	padding-left: 5px;
+	border-left: 1px solid #FFFFFF;
+}
+
+#menu {
+	height: 22px;
+	background-color:#CCCCCC;
+	background:url(images/800x600/menu_bg.gif) repeat-x;
+}
+
+#data{
+	position: absolute;
+	top: 70px;
+	right: 10px;
+	text-align: right;
+	color: #FFFFFF;
+}
+
+h1 {
+	margin:0;
+	padding: 5px 10px 5px;
+	border-bottom: 2px solid #FFFFFF;
+	font-size: 15px;
+	color: #FFFFFF;
+	background:url(images/800x600/titulo_bg.jpg) repeat-x;
+}
+
+h1 span {
+	color: #CE0000;
+	margin-left: 5px;
+}
+
+#conteudo{
+	height: 360px;
+	_height: 370px;
+	background:url(images/800x600/conteudo_bg.jpg) no-repeat;
+	border-top: none;
+	padding: 10px 10px 0 10px;
+}
+
+
+#botoes {
+	text-align: right;
+	padding: 5px;
+	border-top: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+	background: url(images/800x600/botoes_bg.jpg) repeat-x;
+}
+
+#botoes_mateus {
+	text-align: right;
+	border-top: 0px solid #CCCCCC;
+	border-bottom: 0px solid #CCCCCC;
+	background: url(images/800x600/botoes_bg.jpg) repeat-x;
+}
+
+#inicial h1 {
+	width: 760px;
+	height: 18px;
+}
+
+#inicial #conteudo{
+	height: 360px;
+	_height: 370px;
+	background:url(images/800x600/conteudo_bg.jpg) no-repeat;
+	border-top: none;
+	padding: 10px 10px 0 10px;
+}
+
+#inicial #botoes {
+	height:22px;
+}
+
+#botoes strong {
+	display:block;
+	color:#CE0000;
+	float: left;
+	font-weight: normal;
+}
+
+#rodape {
+	height: 5px;
+	background-color:#000000;
+}
+.linha_tabela
+{
+	height:20px;
+}
+#ContentPlaceHolder1
+{
+	background-color :Transparent;
+	display:block;
+	
+}
