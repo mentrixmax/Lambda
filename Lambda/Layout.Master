@@ -19,7 +19,7 @@
             </li>
 
             <li>
-                <a href="Participantes.aspx">Mebros</a>
+                <a href="Participantes.aspx">Membros</a>
             </li>
 
             <li>
@@ -40,8 +40,19 @@
             <li>
                 <a href="EmConstrucao.aspx">Parceiros</a>
             </li>
-
-            
+            <li>
+                <a href="Login.aspx">Administração</a>
+                <ul>
+                    <li><a href="CadastroMembros.aspx">Novo Participante</a></li>
+                    <li><a href="CadastroMembros.aspx">Novo Projeto</a></li>
+                     <li><a href="CadastroMembros.aspx">Novo Parceiro</a></li>
+                    <li><a href="CadastroMembros.aspx">Nova Notícias</a></li>
+                    <li><a href="Sucesso.aspx?Session=Abandon">Desconectar</a></li>
+                </ul>
+            </li>
+            <li>
+                
+            </li>
         </ul>
         &nbsp;
     </div>

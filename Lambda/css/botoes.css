@@ -5,7 +5,8 @@ button, #botoes button {
 	background-color: transparent;
 	background-position: 3px 3px;
 	background-repeat: no-repeat;
-	color:#7C7C70;
+	/*color:#7C7C70; */
+    
 	font-size: 0.8em;
 	font-weight:bold;
 	margin-left:5px;
@@ -14,6 +15,7 @@ button, #botoes button {
 	padding: 2px;
 	text-indent: 16px;
     height:20px;
+    color:rgba(90, 191, 208, 1);
 }
 
 

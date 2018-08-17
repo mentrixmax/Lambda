@@ -110,16 +110,19 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CadastroMembros.aspx" />
     <Content Include="css\images\800x600\imageDagua.jpg" />
     <Content Include="css\images\800x600\imagelambda.jpg" />
     <Content Include="Fotos\1.bmp" />
     <Content Include="Fotos\igorpain.gif" />
     <Content Include="Fotos\mateus.png" />
+    <Content Include="Fotos\rainelarissa.gif" />
     <Content Include="Fotos\saae.png" />
     <Content Include="libs\Menfram.dll" />
     <Content Include="libs\Mono.Security.dll" />
     <Content Include="libs\MySql.Data.dll" />
     <Content Include="libs\Npgsql.dll" />
+    <Content Include="Login.aspx" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -301,11 +304,19 @@
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="Sobre.aspx" />
+    <Content Include="Sucesso.aspx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CadastroMembros.aspx.cs">
+      <DependentUpon>CadastroMembros.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CadastroMembros.aspx.designer.cs">
+      <DependentUpon>CadastroMembros.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -337,6 +348,13 @@
     <Compile Include="Layout.Master.designer.cs">
       <DependentUpon>Layout.Master</DependentUpon>
     </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Participante.cs" />
     <Compile Include="ParticipanteDAO.cs" />
     <Compile Include="Participantes.aspx.cs">
@@ -362,6 +380,10 @@
     </Compile>
     <Compile Include="Sobre.aspx.designer.cs">
       <DependentUpon>Sobre.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sucesso.aspx.cs">
+      <DependentUpon>Sucesso.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>

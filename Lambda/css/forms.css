@@ -113,7 +113,9 @@ form {
 	float: left;
 	margin: 0 10px 10px 0;
 	font-weight:bold;
-	color:#777768;
+	/*color:#777768;*/
+    color:rgba(90, 191, 208, 1);
+    
 }
 
 .campo em {

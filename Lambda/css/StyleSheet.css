@@ -217,3 +217,52 @@ h1 span {
 	display:block;
 	
 }
+.escondido {
+    visibility: collapse
+}
+
+tbody tr {
+    color:rgba(90, 191, 208, 1);
+    
+}
+tbody td {
+    background: #000;
+    border-bottom: 0px solid #CCC;
+    border-left: none;
+    border-right: 0px solid #CCC;
+    padding: 2px 3px 3px 4px;
+    
+}
+.conteudo {
+    height:460px;
+}
+
+.hiddenDiv {
+    display:none;
+}
+.alerterror {
+    padding: 20px;
+    background-color: #ff0000;
+    color: white;
+}
+
+.alertsucess {
+    padding: 20px;
+    background-color: #90EE90;
+    color: white;
+}
+
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: black;
+}
